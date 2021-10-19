@@ -17,11 +17,12 @@ const pets = [
 ];
 
 
-skip('should return all names', (expect) => {
+test('should return all names', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = ['scooter', 'sassy', 'legzo', 'fluff'];
     
+
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = makeArrayOfNamesWithMap(pets);
@@ -31,7 +32,7 @@ skip('should return all names', (expect) => {
     expect.deepEqual(actual, expected);
 });
 
-skip('should return all objects with an added isHungry property equal to true', (expect) => {
+test('should return all objects with an added isHungry property equal to true', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = [
