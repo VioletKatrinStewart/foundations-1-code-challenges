@@ -50,7 +50,8 @@ Output:
 ]*/
 
 export function makeShoutingArray(arr) {
-    return [];
+    const shoutingArray = arr.map(item => ({ name: item.name.toUpperCase(), type: item.type })); 
+    return shoutingArray;
 }
 
 
