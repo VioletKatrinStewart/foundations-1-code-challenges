@@ -20,7 +20,7 @@ Output:
 
 export function makeArrayOfNamesWithMap(arr) {
     //console.log(arr);
-    const nameArray = arr.map(pet => pet.name)
+    const nameArray = arr.map(pet => pet.name);
     return nameArray;
 }
 /*
